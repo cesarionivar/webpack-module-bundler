@@ -30,6 +30,36 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
+/***/ "./src/assets/images/github.png":
+/*!**************************************!*\
+  !*** ./src/assets/images/github.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9c4faee7513f87e9b3b3.png\";\n\n//# sourceURL=webpack://js-portfolio/./src/assets/images/github.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/instagram.png":
+/*!*****************************************!*\
+  !*** ./src/assets/images/instagram.png ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8932205d8701217166c9.png\";\n\n//# sourceURL=webpack://js-portfolio/./src/assets/images/instagram.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/twitter.png":
+/*!***************************************!*\
+  !*** ./src/assets/images/twitter.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a4a49dfe20c4a1a2c681.png\";\n\n//# sourceURL=webpack://js-portfolio/./src/assets/images/twitter.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -46,7 +76,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tem
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _utils_getData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getData.js */ \"./src/utils/getData.js\");\n\n\nconst Template = async () => {\n  const data = await (0,_utils_getData_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n  const view = `\n    <div class=\"About\">\n      <div class=\"card\">\n        <div class=\"card_details\">\n          <div class=\"card_photo center circle\">\n            <img src=\"${data.picture.large}\" alt=\"${data.name.first}\">\n            <svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" style=\"enable-background:new -580 439 577.9 194;\"\n              xml:space=\"preserve\">\n              <circle cx=\"50\" cy=\"50\" r=\"40\" />\n            </svg>\n          </div>\n          <p class=\"card_title\">Hi, My name is</p>\n          <p class=\"card_value\">${data.name.first} ${data.name.last}</p>\n        </div>\n        <div class=\"card_userdata\">\n          <ul>\n            <li>${data.email}</li>\n            <li>${data.location.country}</li>\n          </ul>\n        </div>\n        <div class=\"card_social\">\n          <a href=\"https://twitter.com/gndx\">\n            <img src=\"./assets/images/twitter.png\" />\n          </a>\n          <a href=\"https://github.com/gndx\">\n            <img src=\"./assets/images/github.png\" />\n          </a>\n          <a href=\"https://instagram.com/gndx\">\n            <img src=\"./assets/images/instagram.png\" />\n          </a>\n        </div>\n      </div>\n    </div>\n  `;\n  return view;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Template);\n\n//# sourceURL=webpack://js-portfolio/./src/templates/Template.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _utils_getData_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/getData.js */ \"./src/utils/getData.js\");\n/* harmony import */ var _assets_images_github_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/github.png */ \"./src/assets/images/github.png\");\n/* harmony import */ var _assets_images_twitter_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/twitter.png */ \"./src/assets/images/twitter.png\");\n/* harmony import */ var _assets_images_instagram_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/instagram.png */ \"./src/assets/images/instagram.png\");\n\n\n\n\n\nconst Template = async () => {\n  const data = await (0,_utils_getData_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n  const view = `\n    <div class=\"About\">\n      <div class=\"card\">\n        <div class=\"card_details\">\n          <div class=\"card_photo center circle\">\n            <img src=\"${data.picture.large}\" alt=\"${data.name.first}\">\n            <svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" style=\"enable-background:new -580 439 577.9 194;\"\n              xml:space=\"preserve\">\n              <circle cx=\"50\" cy=\"50\" r=\"40\" />\n            </svg>\n          </div>\n          <p class=\"card_title\">Hi, My name is</p>\n          <p class=\"card_value\">${data.name.first} ${data.name.last}</p>\n        </div>\n        <div class=\"card_userdata\">\n          <ul>\n            <li>${data.email}</li>\n            <li>${data.location.country}</li>\n          </ul>\n        </div>\n        <div class=\"card_social\">\n          <a href=\"https://twitter.com/gndx\">\n            <img src=\"${_assets_images_twitter_png__WEBPACK_IMPORTED_MODULE_2__}\" />\n          </a>\n          <a href=\"https://github.com/gndx\">\n            <img src=\"${_assets_images_github_png__WEBPACK_IMPORTED_MODULE_1__}\" />\n          </a>\n          <a href=\"https://instagram.com/gndx\">\n            <img src=\"${_assets_images_instagram_png__WEBPACK_IMPORTED_MODULE_3__}\" />\n          </a>\n        </div>\n      </div>\n    </div>\n  `;\n  return view;\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Template);\n\n//# sourceURL=webpack://js-portfolio/./src/templates/Template.js?");
 
 /***/ }),
 
@@ -99,6 +129,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -113,6 +155,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
